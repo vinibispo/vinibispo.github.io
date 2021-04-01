@@ -8,10 +8,10 @@ export function Features() {
     <div className="flex items-center flex-wrap mb-20 sm:mx-auto">
       <div className="w-full md:w-1/2">
         <h4 className="text-3xl text-gray-800 font-bold mb-3">Desenvolvedor FullStack</h4>
-        <p className="text-gray-600 mb-8">Já desenvolvi milhares de projetos ao longo desses 3 anos, desde ecommerce até sistemas administrativos de grande porte.</p>
+        <p className="text-gray-600 mb-8">Já desenvolvi dezenas de projetos ao longo desses 3 anos, desde ecommerce até sistemas administrativos de grande porte.</p>
       </div>
       <div className="w-full md:w-1/2">
-        <img src="assets/profile.svg" alt="Profile" />
+        <img src="assets/profile.jpg" alt="Profile" />
       </div>
     </div>
 
