@@ -11,13 +11,13 @@ export function Features() {
         <p className="text-gray-600 mb-8">Já desenvolvi dezenas de projetos ao longo desses 3 anos, desde ecommerce até sistemas administrativos de grande porte.</p>
       </div>
       <div className="w-full md:w-1/2">
-        <img src="assets/profile.jpg" alt="Profile" />
+        <img src="/assets/profile.jpg" alt="Profile" />
       </div>
     </div>
 
     <div className="flex items-center flex-wrap mb-20">
       <div className="w-full md:w-1/2">
-        <img src="assets/client.svg" alt="Client" />
+        <img src="/assets/client.svg" alt="Client" />
       </div>
       <div className="w-full md:w-1/2 pl-10">
         <h4 className="text-3xl text-gray-800 font-bold mb-3">Freelancer</h4>
@@ -31,7 +31,7 @@ export function Features() {
         <p className="text-gray-600 mb-8">Faço tudo que posso pelos meus objetivos, com certeza farei para os seus também</p>
       </div>
       <div className="w-full md:w-1/2">
-        <img src="assets/health.svg" alt="Syncing" />
+        <img src="/assets/health.svg" alt="Syncing" />
       </div>
     </div>
   </div>
