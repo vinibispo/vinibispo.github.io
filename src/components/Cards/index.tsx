@@ -2,19 +2,19 @@ import { Card } from "./Card";
 
 const cards = [
   {
-    image: "assets/upmedal.png",
+    image: "/assets/upmedal.png",
     title: "UpMedal",
     description:
       "Um dos responsáveis para converter um site em Angular para ReactJS",
   },
   {
-    image: "assets/embalar.png",
+    image: "/assets/embalar.png",
     title: "Embalar",
     description:
       "Criei um sistema administrativo para automatizar a gestão de notas fiscais e estoque",
   },
   {
-    image: "assets/dtmoney.png",
+    image: "/assets/dtmoney.png",
     title: "DTMoney",
     description: "Um projeto para controlar suas finanças",
   },

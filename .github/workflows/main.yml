@@ -29,8 +29,9 @@ jobs:
         run: yarn install --prefer-offline --frozen-lockfile
       - name: Build application
         run: yarn build
+      - run: yarn export
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./out

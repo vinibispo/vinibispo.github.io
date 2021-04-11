@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export function Features() {
   return (
 <section className="bg-white border-b py-8 border-white">
@@ -11,13 +12,13 @@ export function Features() {
         <p className="text-gray-600 mb-8">Já desenvolvi dezenas de projetos ao longo desses 3 anos, desde ecommerce até sistemas administrativos de grande porte.</p>
       </div>
       <div className="w-full md:w-1/2">
-        <img src="/assets/profile.jpg" alt="Profile" />
+        <Image src="/assets/profile.jpg" height={600} width={600} layout="responsive" alt="Profile" />
       </div>
     </div>
 
     <div className="flex items-center flex-wrap mb-20">
       <div className="w-full md:w-1/2">
-        <img src="/assets/client.svg" alt="Client" />
+        <Image src="/assets/client.svg" alt="Client" layout="responsive" width={490} height={369} />
       </div>
       <div className="w-full md:w-1/2 pl-10">
         <h4 className="text-3xl text-gray-800 font-bold mb-3">Freelancer</h4>
@@ -31,7 +32,7 @@ export function Features() {
         <p className="text-gray-600 mb-8">Faço tudo que posso pelos meus objetivos, com certeza farei para os seus também</p>
       </div>
       <div className="w-full md:w-1/2">
-        <img src="/assets/health.svg" alt="Syncing" />
+        <Image src="/assets/health.svg" alt="Syncing" height={301} width={459} />
       </div>
     </div>
   </div>

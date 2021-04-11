@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export function Hero() {
   return (
     <>
@@ -16,7 +17,7 @@ export function Hero() {
           </button>
         </div>
         <div className="w-full md:w-3/5 py-6 text-center">
-          <img className="w-full md:w-4/5 z-50" src="assets/hero.png" />
+          <Image className="w-full md:w-4/5 z-50" src="/assets/hero.png" layout="responsive" width={357} height={308} />
         </div>
       </div>
     </div>
