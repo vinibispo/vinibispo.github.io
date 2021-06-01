@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 interface CardProps {
   description: string;
   title: string;
@@ -7,7 +7,14 @@ interface CardProps {
 export function Card({ image, title, description }: CardProps) {
   return (
     <div className="rounded overflow-hidden shadow-lg">
-      <Image height={80} width={80} layout="responsive" src={image} alt={title} />
+      <Image
+        className="w-80 h-80"
+        height={80}
+        width={80}
+        layout="responsive"
+        src={image}
+        alt={title}
+      />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-gray-700 text-base">{description}</p>

@@ -1,9 +1,6 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
-
 /* Custom css */
 .gradient {
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
